@@ -24,11 +24,11 @@ mx.test_utils.download(path+'resnet/50-layers/resnet-50-symbol.json'),
 mx.test_utils.download(path+'synset.txt')]
 
 
-path = 'http://data.dmlc.ml/models/imagenet/squeezenet/'
+#path = 'http://data.dmlc.ml/models/imagenet/squeezenet/'
 
-[mx.test_utils.download(path+'squeezenet_v1.1-0000.params'),
+#[mx.test_utils.download(path+'squeezenet_v1.1-0000.params'),
 
-mx.test_utils.download(path+'squeezenet_v1.1-symbol.json')]
+#mx.test_utils.download(path+'squeezenet_v1.1-symbol.json')]
 
 
 ctx = mx.eia()
